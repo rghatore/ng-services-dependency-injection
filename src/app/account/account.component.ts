@@ -8,7 +8,7 @@ import { LoggingService } from 'src/shared/logging.service';
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css'],
   providers: [
-    LoggingService,
+    // LoggingService,
     // AccountsService // this creates a new instance separate from the app instance
   ]
 })
@@ -23,6 +23,6 @@ export class AccountComponent {
 
   onSetTo(status: string) {
     this.accountsService.onStatusChanged(this.id, status);
-    this.loggingService.logStatusChange(status);
+    // this.loggingService.logStatusChange(status);
   }
 }
