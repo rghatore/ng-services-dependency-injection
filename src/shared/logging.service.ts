@@ -1,5 +1,4 @@
 import { Injectable } from "@angular/core";
-import { AppModule } from "src/app/app.module";
 
 @Injectable({
   providedIn: 'root',
